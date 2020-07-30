@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "./footer/footer";
 
 //include images into your bundle
 //import rigoImage from "../../img/rigo-baby.jpg";
@@ -15,6 +16,7 @@ export function Home() {
 						<CardGroup />
 					</div>
 				</div>
+				<Footer />
 			</React.Fragment>
 		</div>
 	);
