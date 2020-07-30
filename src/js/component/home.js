@@ -7,11 +7,14 @@ import Footer from "./footer/footer";
 import { CardGroup } from "./omarCardGroup";
 import NavBar from "./NavBar";
 
+import { JumbotronI } from "./jumbotron";
+
 //create your first component
 export function Home() {
 	return (
 		<React.Fragment>
 			<NavBar />
+			<JumbotronI />
 			<div className="container-fluid">
 				<div className="row d-flex justify-content-center">
 					<div className="col-10">
