@@ -8,8 +8,14 @@ import { CardGroup } from "./omarCardGroup";
 //create your first component
 export function Home() {
 	return (
-		<React.Fragment>
-			<CardGroup />
-		</React.Fragment>
+		<div className="container-fluid">
+			<React.Fragment>
+				<div className="row d-flex justify-content-center">
+					<div className="col-10">
+						<CardGroup />
+					</div>
+				</div>
+			</React.Fragment>
+		</div>
 	);
 }
